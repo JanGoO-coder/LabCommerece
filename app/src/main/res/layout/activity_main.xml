@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="3"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/polos_banner"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:src="@drawable/polos_banner"
+        android:scaleType="fitXY"/>
+
+    <ImageView
+        android:id="@+id/casuals_banner"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:src="@drawable/casuals_banner"
+        android:scaleType="fitXY"/>
+
+    <ImageView
+        android:id="@+id/bottoms_banner"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:src="@drawable/bottoms_benner"
+        android:scaleType="fitXY"/>
+
+</LinearLayout>
