@@ -6,6 +6,7 @@
     android:layout_height="match_parent"
     tools:context=".ProductDescriptionActivity"
     android:orientation="vertical"
+    android:scrollbars="vertical"
     android:padding="20dp">
 
     <ImageView

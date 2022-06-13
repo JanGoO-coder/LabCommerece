@@ -23,8 +23,6 @@ public class ProductGalleryActivity extends AppCompatActivity implements ItemCli
     RecyclerView.LayoutManager layoutManager;
     ProductRecyclerViewAdapter recyclerViewAdapter;
 
-
-
     ArrayList<Product> polo_products = new ArrayList<>();
     ArrayList<Product> casual_products = new ArrayList<>();
     ArrayList<Product> bottom_products = new ArrayList<>();
