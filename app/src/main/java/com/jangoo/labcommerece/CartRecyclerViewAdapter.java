@@ -72,7 +72,7 @@ public class CartRecyclerViewAdapter extends RecyclerView.Adapter<CartRecyclerVi
                 @Override
                 public void onClick(View view) {
                     String id = String.valueOf(cartProducts.get(getAdapterPosition()).getId());
-                    Toast.makeText(view.getContext(), "id:" + id, Toast.LENGTH_SHORT).show();
+//                    Toast.makeText(view.getContext(), "id:" + id, Toast.LENGTH_SHORT).show();
                 }
             });
 

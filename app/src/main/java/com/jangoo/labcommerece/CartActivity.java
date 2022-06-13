@@ -114,7 +114,7 @@ public class CartActivity extends AppCompatActivity implements ItemClickListener
                 strBuild.append("\n" + id + " - " + t + " - "+ p + " - "+ q);
                 cursor.moveToNext();
             }
-            Toast.makeText(this, "" + strBuild, Toast.LENGTH_SHORT).show();
+//            Toast.makeText(this, "" + strBuild, Toast.LENGTH_SHORT).show();
         }
         else {
             Toast.makeText(this, "No Record Found", Toast.LENGTH_SHORT).show();

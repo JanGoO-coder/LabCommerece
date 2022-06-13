@@ -54,15 +54,15 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     public void onClick(View view) {
         Intent intent = new Intent(MainActivity.this, ProductGalleryActivity.class);
         if (view.getId() == polos_banner.getId()) {
-            Toast.makeText(this, "Polos Gallery", Toast.LENGTH_SHORT).show();
+//            Toast.makeText(this, "Polos Gallery", Toast.LENGTH_SHORT).show();
             intent.putExtra("id", "1");
         }
         if (view.getId() == casuals_banner.getId()) {
-            Toast.makeText(this, "Casualss Gallery", Toast.LENGTH_SHORT).show();
+//            Toast.makeText(this, "Casualss Gallery", Toast.LENGTH_SHORT).show();
             intent.putExtra("id", "2");
         }
         if (view.getId() == bottoms_banner.getId()) {
-            Toast.makeText(this, "Bottoms Gallery", Toast.LENGTH_SHORT).show();
+//            Toast.makeText(this, "Bottoms Gallery", Toast.LENGTH_SHORT).show();
             intent.putExtra("id", "3");
         }
         MainActivity.this.startActivity(intent);

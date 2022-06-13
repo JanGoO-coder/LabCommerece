@@ -93,7 +93,7 @@ public class ProductDescriptionActivity extends AppCompatActivity implements Vie
     @Override
     public void onPointerCaptureChanged(boolean hasCapture) {
         super.onPointerCaptureChanged(hasCapture);
-        Toast.makeText(this, "Changed", Toast.LENGTH_SHORT).show();
+//        Toast.makeText(this, "Changed", Toast.LENGTH_SHORT).show();
     }
 
     @Override
@@ -139,7 +139,7 @@ public class ProductDescriptionActivity extends AppCompatActivity implements Vie
                     + "-"+ cursor.getString(cursor.getColumnIndex("quantity")));
                 cursor.moveToNext();
             }
-            Toast.makeText(this, "Record Added Successfully!", Toast.LENGTH_SHORT).show();
+//            Toast.makeText(this, "Record Added Successfully!", Toast.LENGTH_SHORT).show();
         }
         else {
             Toast.makeText(this, "No Record Found", Toast.LENGTH_SHORT).show();
